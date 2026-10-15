@@ -1015,6 +1015,31 @@ footer p {
         gap: 1.5rem;
     }
 
+    .content-about .content-aboutme {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .content-about .text-aboutme {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .content-about .text-aboutme p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .content-about .image-aboutme {
+        justify-content: center;
+        align-items: center;
+    }
+
     .content-about .text-aboutme h1 {
         font-size: clamp(1.5rem, 4vw, 1.875rem);
     }
@@ -1090,6 +1115,25 @@ footer p {
         align-items: center;
     }
 
+    .text-aboutme {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-aboutme p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .image-aboutme {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .content-index,
     .content-about,
     .content-skills,
@@ -1097,6 +1141,7 @@ footer p {
     .content-contact {
         width: calc(100% - 2rem);
         margin-top: 120px;
+        /* border: 1px solid red; */
     }
 
     .content-index .text-content .main-text {
@@ -1146,6 +1191,7 @@ footer p {
     .project-column,
     .contact-column {
         grid-template-columns: minmax(0, 1fr);
+        /* border: 1px solid red; */
     }
 
     .content-skills .main-skill {
@@ -1172,5 +1218,6 @@ footer p {
         width: calc(100% - 2rem);
         flex-direction: column;
         padding: 1rem;
+        /* border: 1px solid red; */
     }
 }
